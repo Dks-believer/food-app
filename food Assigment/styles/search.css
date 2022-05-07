@@ -1,0 +1,145 @@
+#navbar {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    border: 4px solid rgb(0, 4, 255);
+    justify-content: space-between;
+    margin-top: -7px; 
+    background-color: rgb(196, 245, 245);
+}
+#Img{
+    margin-top:9px;
+    margin-left: 20px;
+    width:200px;
+    height: 60px;
+}
+#home{
+    margin-top:25px;
+    font-size :25px;
+
+}
+#home>a{
+    text-decoration: none;
+    color: rgb(255, 0, 200);
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+}
+#serch{
+    margin-top:18px;
+    width: 310px;
+    font-size :25px;
+    height: 40px;
+}
+#button{
+    background-color:rgb(255, 8, 197);
+    color: white;
+    width:100px;
+    font-size :25px;
+    height: 45px;
+}
+
+#the_day{
+    text-decoration: none;
+    color: rgb(235, 0, 235);
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    margin-top:23px;
+    font-size :25px;
+}
+#random{
+    text-decoration: none;
+    color: rgb(235, 0, 235);
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    margin-left: 40px;
+    font-size :25px;
+}
+/* #addtocard{
+    margin-right: 30px;
+    margin-top:20px;
+    height :40px;
+    width :100px;
+    border-radius: 20px;
+} */
+/* #login{
+    margin-right: 30px;
+    height :40px;
+   width :100px;
+   border-radius: 20px;
+} */
+
+/* here we put serch.html css */
+
+
+
+#food {
+              
+    height: 600px;
+    width: 318px;
+    margin-left: 80%;
+    background-color:wheat;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    float: right;
+
+}
+#div2:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color:yellow;
+}
+#div2{
+    display: flex;
+}
+#p{
+    margin-top: 8px;
+    margin-left: 15px;
+}
+#hr{
+   border:2px solid black;
+   background-color:black
+}
+body {
+    background-image: url(https://images.creativemarket.com/0.1.0/ps/7353024/1820/965/m1/fpnw/wm1/ahp0l9ecx0vfwsdo1rwxcdtynfyzn4gweomwnblntp5glupfrmnapoab88tzxyjd-.jpg?1574572829&s=b8ffc3e573cf00451539ee4b954ba3c0);
+    
+      height: 700px; 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+#parent{
+   display: grid;
+   grid-template-columns: repeat(4 ,1fr);
+   gap: 23px;
+   margin-top: 50px;
+   margin-left: 40%;
+   /* margin-right: 30px; */
+   
+}
+#parent>div{
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 20px;
+   border: 1px solid grey;
+}
+#parent > div >p{
+    margin-left: 15px;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    font-weight:600;
+}
+#parent > div >p:nth-child(2){
+   color: rgb(251, 7, 7);
+}
+#foodImage{
+    border-top-left-radius: 20px;
+    border-top-Right-radius: 20px;
+    height: 350px;
+    width: 450px;
+}
+#fImage{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+}
+

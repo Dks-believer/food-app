@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/search.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="navbar">
+        <div id="navImg">
+            <a href="name.html">
+                <img src="https://6amtech.com/assets/front-end/img/logo2.png" alt=""></a>
+        </div>
+    
+        <div id="home">
+            <a href="index.html">Home</a>
+    
+        </div>
+    
+        <div id="the_day">
+            <a href="reciepe.html">Reciepe of the day</a>
+            <a id="random" href="random.html">Random Food</a>
+        </div>
+    
+        <div id="login">
+            <a href="signup.html">Signup</a>
+            <a href="login.html">Login</a>
+        </div>
+    
+       <div>
+        <input oninput="debounce(main ,1000)" type="text" id="serch" placeholder="search by Name">
+      
+       </div>
+
+    </div>
+    <h1>search</h1>
+    <div id="food"></div>
+    <div id="parent"></div>
+</body>
+</html>
+<script src="./scripts/search.js"></script>
